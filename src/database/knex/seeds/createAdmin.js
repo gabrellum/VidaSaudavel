@@ -7,6 +7,6 @@ exports.seed = async (knex) => {
       isAdmin: true,
       name: process.env.USER_ADMIN,
       password: process.env.ADMIN_PASSWORD,
-    }]
-  );
+    }
+  ]);
 };
